@@ -4,21 +4,21 @@ import { useCallback, useState } from 'react'
 export const settings: ISettings[] = [
     {
         level: SettingsLevel.Beginner,
-        xFieldsCount: 8,
-        yFieldsCount: 8,
-        bombsCount: 6,
+        xFieldsCount: 10,
+        yFieldsCount: 10,
+        bombsCount: 10,
     },
     {
         level: SettingsLevel.Intermediate,
-        xFieldsCount: 12,
-        yFieldsCount: 12,
-        bombsCount: 43,
+        xFieldsCount: 16,
+        yFieldsCount: 16,
+        bombsCount: 40,
     },
     {
         level: SettingsLevel.Expert,
-        xFieldsCount: 16,
+        xFieldsCount: 30,
         yFieldsCount: 16,
-        bombsCount: 128,
+        bombsCount: 99,
     },
 ]
 

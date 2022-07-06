@@ -130,7 +130,7 @@ const Game = () => {
                             target='_blank'
                             rel='noreferrer'>
                             <img
-                                src='/assets/icons/github.svg'
+                                src='/minesweeper/assets/icons/github.svg'
                                 alt='View source on GitHub'
                                 className={style.githubIcon}
                             />

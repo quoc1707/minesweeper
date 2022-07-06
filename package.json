@@ -2,10 +2,13 @@
     "name": "minesweeper",
     "version": "1.0.0",
     "private": true,
+    "homepage": "https://quoc1707.github.io/minesweeper/",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "pnpm run build",
+        "deploy": "gh-pages -d build"
     },
     "dependencies": {
         "classnames": "2.3.1",
@@ -20,6 +23,7 @@
         "@types/node": "18.0.2",
         "@types/react": "18.0.15",
         "@types/react-dom": "18.0.6",
+        "gh-pages": "4.0.0",
         "react-is": "18.2.0",
         "react-scripts": "5.0.1"
     },
